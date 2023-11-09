@@ -32,8 +32,6 @@ class human:
             self.__age=a
         else:
             print(f'Недопустимый возраст:{a}')
- 
-    
 q=human('петя',10,110)
 q.name='Ян'
 name=q.name
@@ -41,13 +39,3 @@ print(name)
 q.age='15'
 age=q.age
 q.print()
-
-
-class stud(human):
-    def study(self):
-        print(f'{self.name} Учится')
-q=stud('Petya',19,190)
-q.study()
-
-
-
